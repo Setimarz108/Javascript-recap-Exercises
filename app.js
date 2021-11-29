@@ -120,6 +120,9 @@ console.log(cityName('Madrid'))
 
 const sum_all = function(arr){
 
+    return arr.reduce(function(acc, val) { return acc + val; }, 0)
        
 }
+
+console.log(sum_all([2,2,4]))
 
